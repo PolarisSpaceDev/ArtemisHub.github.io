@@ -34,7 +34,7 @@ body {
 .bannerStrip {
     width:100%;
     height:30dvh;
-    background-image: url("../Images/ArtemisBanner.jpg");
+    background-image: url("..Images/ArtemisBanner.jpg");
     background-position: center;
 }
 
