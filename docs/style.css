@@ -540,6 +540,7 @@ ul.status::marker {
     #LaunchStatus {
         text-align:center;
         font-size: 0.75em;
+        overflow:visible;
     }
 
     #Years, #Months, #Days, #Hours, #Minutes, #Seconds, p {
