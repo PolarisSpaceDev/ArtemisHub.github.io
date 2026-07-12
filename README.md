@@ -23,6 +23,7 @@ https://github.com/user-attachments/assets/0cc67c83-c25b-404d-90e2-3a1dcdb8753f
   <li>Countdown Timer</li>
   <li>Status Updates</li>
   <li>Moon Base Hub</li>
+  <li>Artemis Missions Timeline Showcase</li>
 </ul>
 
 <h2>Extended Description</h2>
