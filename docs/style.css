@@ -390,6 +390,19 @@ ul.status::marker {
         --primaryTextColor:#f1f1f1;
     }
 
+    .bannerStrip h1 {
+        color:var(--primaryTextColor);
+        font-family: var(--primaryFont), serif;
+        text-align: center;
+        padding:1%;
+        font-size: 2em;
+    }
+
+    .bannerStrip h2 {
+        padding:1%;
+        font-size: 1.5em;
+    }
+
     iframe {
         width:100%;
     }
@@ -426,6 +439,20 @@ ul.status::marker {
         max-width: 270px;
         white-space: nowrap !important;
         font-size: var(--pFontSize);
+    }
+
+    .hubBubble {
+        width: 100%;
+        height:auto;
+        padding: 5px;
+    }
+
+    .hubBubble:hover {
+        width:110%;
+    }
+
+    .rightSidePanelLayout .rightContent p {
+        font-size: 0.50em;
     }
 
     .missionOverview {
@@ -501,6 +528,18 @@ ul.status::marker {
         
     }
 
+    .rightSidePanelLayout {
+        width:70dvw;
+        margin-left:10dvw;
+        padding:10px;
+        margin-top:10px;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
     .sidePanelRow p {
         font-size: 0.75em;
         font-family: "GC Protage", sans-serif;
@@ -509,6 +548,26 @@ ul.status::marker {
     .sidePanelRow h3 {
         color: var(--primaryTextColor);
     }
+
+    .rightContent {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-top: 20dvh;
+    }
+
+    .rightContent h4 {
+        font-size: 0.75em;
+        color:var(--primaryTextColor);
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .rightContent h3 {
+        font-size: 0.75em;
+    }
+
+    
 
     #Countdown {
     display:flex;
