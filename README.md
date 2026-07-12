@@ -44,3 +44,4 @@ Another thing I started learning is how API fetching works, you won't see it in 
 <h2>Credits and Aknowledgements</h2>
 <p>CLPS Landing Sites Simulation created by <a href="https://www.nasa.gov/commercial-lunar-payload-services/clps-landing-sites/">NASA</a></p>
 <p>Artemis II Trajectory Simulation created by <a href="https://eyes.nasa.gov/apps/solar-system/#/sc_artemis_2?trajectory=primary">NASA</a></p>
+<p>Some information is from <a href="https://www.nasa.gov">NASA.gov</a> on their Artemis pages and moon base pages.</p>
