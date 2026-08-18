@@ -67,6 +67,23 @@ summary {
     cursor: pointer;
 }
 
+summary p
+
+ul .timeline {
+    list-style-type: none;
+}
+
+ul.timeline hr {
+    width: 75%;
+}
+
+
+ul.timeline li {
+    font-size: large;
+    line-height: 3em;
+    text-align: center;
+}
+
 /* Classes */
 
 /* Styles Banner Strips */
@@ -99,6 +116,26 @@ summary {
     width:100%;
     height:30dvh;
     position:relative;
+}
+
+.collapsable details {
+    width: 90dvw;
+    border: none;
+    
+}
+
+.collapsable summary {
+    font-size: var(--h2FontSize);
+    font-weight: bold;
+    text-align: left;
+}
+
+.collapsable details p {
+    font-size: var(--pFontSize);
+}
+
+.collapsable ul li {
+    color: var(--primaryTextColor);
 }
 
 /* Styles each card */
@@ -328,6 +365,21 @@ ul.status::marker {
 }
 
 /* ID's */
+
+#ArtemisIFact {
+    border-bottom: 1px solid white;
+    font-size: var(--h3FontSize);
+}
+
+#ArtemisIIFact {
+    border-bottom: 1px solid white;
+    font-size: var(--h3FontSize);
+}
+
+#ArtemisIIIFact {
+    border-bottom: 1px solid white;
+    font-size: var(--h3FontSize);
+}
 
 /* Styles the countdown container */
 #Countdown {

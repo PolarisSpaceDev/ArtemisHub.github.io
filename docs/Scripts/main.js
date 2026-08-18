@@ -46,7 +46,7 @@ const countdownInterval = setInterval(() => {
 },1000) 
 
 
-
+// API practice
 async function ArtemisIIData() {
 
     try {

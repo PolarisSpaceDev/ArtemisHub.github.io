@@ -13,6 +13,7 @@
         </div>
     </header>
     <main>
+        <p id="ArtemisIIFact"></p>
         <div class="missionOverview">
             <div class="missionOverviewContent">
                 <h2>Artemis II</h2>
@@ -138,9 +139,7 @@
             
 
         </div>
-
-
-        
+ 
     </main>
     
     <section id="Section">
@@ -148,13 +147,18 @@
             <div class="carousel">
                 <div class="card">
                     <h3>Artemis II Trajectory</h3>
-                    <a href="artemisIITrojectory.html">
+                    <a href="artemisIITrojectory.html" target="_blank">
                         <img src="../Images/Moon.png">
                     </a>
                     <p>Created by NASA | Explore Artemis II's path through Eyes on the Solar System!</p>
                 </div>
             </div>
-        </section>
-    
+    </section>
+    <script>
+        // Generates random Artemis II facts
+        var ArtemisIIFacts = ["Artemis II was the first crewed mission of the Artemis Program", "This was Jeremy Hansen's first mission", "Artemis II was originally supposed to launch in 2024", "These four astronauts traveled further from Earth than we've ever been before", "The toilet broke", "The astronauts had technical problems with Microsoft Outlook", "Artemis II was the first crewed lunar mission since 1972", "The first iphone was used on Artemis II"];
+        var randomArtemisIIFact = ArtemisIIFacts[Math.floor(Math.random() * ArtemisIIFacts.length)];
+        document.getElementById("ArtemisIIFact").innerHTML = randomArtemisIIFact;
+    </script>
 </body>
 </html>

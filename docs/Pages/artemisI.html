@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artemis I | Artemis Hub</title>
     <link rel="stylesheet" href="../style.css">
+
+    
 </head>
 <body>
     <header>
@@ -13,9 +15,11 @@
         </div>
     </header>
     <main>
+        <p id="ArtemisIFact"></p>
         <div class="missionOverview">
             <div class="missionOverviewContent">
                 <h2>Artemis I</h2>
+                
                 <p>Artemis I was the first flight of the Artemis Program tasked with testing the performance of the new Space Launch System rocket and Orion in deep space. This served as a critical test flight to validate all systems before humans were on board.</p>
                 <div class="missionOverviewRow">
                     <div class="missionOverviewBlock">
@@ -38,7 +42,10 @@
                 
             </div>
             <img src="../Images/ArtemisICover.jpg" />
+            
         </div>
+
+        
         <div class="row">
             <div class="sidePanel">
             <h2>Spacecraft</h2>
@@ -98,11 +105,75 @@
         <iframe width="560" height="315" src="https://www.youtube.com/embed/CMLD0Lp0JBg?si=7uXieYGLJxqmj1kV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 
-        
+        <div class="collapsable">
+            <details>
+                <summary>Preparations</summary>
+                <p>The SLS rocket for Artemis I was originally rolled out to the launch pad March 17, 2022. The first two Wet Dress Rehearsal (WDR) attempts on April 3 and 4th were scrubbed due to launch pad issues, but one was ultimately performed not long after. However, due to issues with the ICPS, they didn't fuel the upper stage. NASA teams discovered a Hydrogen leak during that WDR which prompted a rollback to the VAB.</p>
+                <p>A fourth WDR attempt was performed June 20 of the following year, however due to a hydrogen leak the countdown timer ended early at T-20s. Then the rocket was rolled back to the VAB on July 2 to fix those Hydrogen leaks.</p>
+                <p>The first launch attempt for Artemis I was set for August 29, 2026 which was scrubbed due to high engine temperatures, hydrogen leaks, and ground communication problems. Another attempt for September 3 was also scrubbed due to continued hydrogen leaks. It wasn't until the third attempt on November 16th that Artemis I finally launched from the KSC.</p>
+            </details>
+        </div>
+
+        <div class="collapsable">
+            <details>
+                <summary>Flight</summary>
+                <p>Artemis I launched at 1:47am EST achieving orbit in about 8.5 minutes. About 89 minutes into flight, the ICPS burned for about 15min to propel Orion and 10 cubsat satellites into a trans lunar ejection. These small satellites would study radiation and perform other scientific research. On November 25, Orion performed a burn to put itself in retrograde lunar orbit. The following day Artemis I broke Apollo 13's record being the furthest a human rated spacecraft has traveled from Earth.</p>
+                <p>Artemis I finally splashed down December 11 traveling almost 25,000 miles.</p>
+            </details>
+        </div>
+
+        <div class="collapsable">
+            <details>
+                <summary>Post Analysis</summary>
+                <p>Upon retrieval of the capsule, NASA discovered unexpected loss of a protective layer of the heatshield. The protective outer layer made from AVCOAT is supposed to break away carrying heat away from the capsule, however the loss was more significant than previously expected. Took two years to find the issue to suggest recommendations.</p>
+            </details>
+            
+        </div>
+
+        <div class="collapsable">
+            <details>
+                <summary>Timeline</summary>
+                <ul class="timeline">
+                    <li><b>T-5y 4m: </b>ICPS arrived to KSC</li>
+                    <li><b>T-2y 5m: </b>SRB arrived to KSC</li>
+                    <li><b>T-1y 8m: </b>SRB stacked</li>
+                    <li><b>T-1y 5m: </b>Core stage stacked</li>
+                    <li><b>T-1y 4m: </b>ICPS stacked</li>
+                    <li><b>T-1y 1m: </b>Orion stacked</li>
+                    <li><b>T-7m 30d: </b>SLS rollout #1</li>
+                    <li><b>T-7m 13d: </b>WDR attempt #1 scrubbed</li>
+                    <li><b>T-7m 12d: </b>WDR attempt #2 scrubbed</li>
+                    <li><b>T-6m 8d: </b>SLS rolled back to VAB</li>
+                    <li><b>T-5m 10d: </b>SLS rollout #2</li>
+                    <li><b>T-4m 27d: </b>WDR attempt #4</li>
+                    <li><b>T-4m 14d: </b>SLS rolled back to VAB</li>
+                    <li><b>T-3m 0d: </b>SLS rollout #3</li>
+                    <li><b>T-2m 18d: </b>Launch attempt #1 scrubbed</li>
+                    <li><b>T-2m 14d: </b>Launch attempt #2 scrubbed</li>
+                    <hr>
+                    <li><b>T-00:00:00: </b>Liftoff!</li>
+                    <li><b>+00:08:30: </b>Orion reached LEO</li>
+                    <li><b>+01:29:00: </b>Translunar Injection</li>
+                    <li><b>+4d 13hr: </b>Entered lunar sphere of influence</li>
+                    <li><b>+5d 6hr: </b>Closest approach to the moon</li>
+                    <li><b>+10d: </b>Reached lunar orbit</li>
+                    <li><b>+12d: </b>Furthest distance from moon</li>
+                    <li><b>+20d: </b>Exited lunar sphere of influence</li>
+                    <li><b>+25d: </b>Entered Earth's atmosphere</li>
+                    <hr>
+                    <li><b>+27d: </b>Capsule recovered</li>
+                    <li><b>+2y 1m: </b>Heatshield investigation concludes</li>
+                </ul>
+            </details>
+        </div>
         
     </main>
-    
-    
-    
+
+    <script>
+        // Generates random Artemis I facts
+        var ArtemisIFacts = ["Artemis I was the first mission of the Artemis Program", "The 0G indicator was Snoopy", "Artemis I went into lunar orbit"];
+        var randomArtemisIFact = ArtemisIFacts[Math.floor(Math.random() * ArtemisIFacts.length)];
+        document.getElementById("ArtemisIFact").innerHTML = randomArtemisIFact;     
+    </script>
 </body>
 </html>

@@ -13,6 +13,7 @@
         </div>
     </header>
     <main>
+        <p id="ArtemisIIIFact"></p>
         <div class="missionOverview">
             <div class="missionOverviewContent">
                 <h2>Artemis III</h2>
@@ -132,5 +133,11 @@
             </div>
         </div>
     </main>
+
+    <script>
+        var ArtemisIIIFacts = ["Artemis III is a LEO docking demonstration"];
+        var randomArtemisIIIFact = ArtemisIIIFacts[Math.floor(Math.random() * ArtemisIIIFacts.length)];
+        document.getElementById("ArtemisIIIFact").innerHTML = randomArtemisIIIFact;
+    </script>
 </body>
 </html>
